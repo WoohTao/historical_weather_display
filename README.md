@@ -1,0 +1,2 @@
+# historical_weather_display
+一个使用Django框架的历史天气数据展示项目
