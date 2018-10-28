@@ -1,0 +1,2 @@
+# historical_weather_display
+一个数据可视化使用ECharts框架，后端使用Django框架的历史天气数据展示项目
