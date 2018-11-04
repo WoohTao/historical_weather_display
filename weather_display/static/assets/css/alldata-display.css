@@ -1,0 +1,19 @@
+/*.navbar > a{*/
+    /*color: #000000;*/
+    /*font-size: 40px;*/
+    /*font-family: 'Trebuchet MS'*/
+/*}*/
+
+/*.navbar-nav > li > a{*/
+    /*color: #000000;*/
+    /*font-size: 15px;*/
+    /*font-family: 'Trebuchet MS'*/
+/*}*/
+
+body {
+    padding-top: 70px;
+  }
+
+#pie{
+    margin-top: 50px;
+}
