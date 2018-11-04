@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/assets/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="../static/assets/css/index-style.css" type="text/css"/>
+    <title>map</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbartransparent">
+        <a class="navbar-brand" href="">历史天气</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="">主页<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">城市</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">北京</a>
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">天津</a>
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">上海</a>
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">重庆</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com/" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">详细信息</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">Action</a>
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">Another action</a>
+                    <a class="dropdown-item" href="https://v4.bootcss.com/docs/4.0/examples/navbars/#">Something else here</a>
+                </div>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search">
+            </form>
+        </div>
+    </nav>
+
+    <div id="back-ground">
+        <video muted id="vedio" src='../static/assets/images/videos/stormCloud.webm' preload="none" loop="loop" autoplay="autoplay">
+            浏览器不支持 video 标签。
+        </video>
+        <div id="map-wrap" class="container-fluid"></div>
+    </div>
+    
+    <div id="title" class="container-fluid">
+        中国历史天气数据
+    </div>
+
+    <script type="text/javascript" src="../static/assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../static/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='../static/assets/js/echarts.min.js'></script>
+    <script type="text/javascript" src="../static/assets/js/map-data/china.js"></script>
+    <script type="text/javascript" src="../static/assets/js/data-display/map.js"></script>
+</body>
+</html>
